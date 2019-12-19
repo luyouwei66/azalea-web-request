@@ -1,0 +1,19 @@
+{
+  "presets": ["env"],
+  "plugins": [
+    "transform-es2015-destructuring",
+    "transform-es2015-typeof-symbol",
+    [
+      "babel-plugin-transform-builtin-extend", {
+        "globals": ["Error", "Array"]
+      }
+    ]
+  ],
+  "env": {
+    "esm": {
+      "presets": [
+        ["env", { "modules": false }]
+      ]
+    }
+  }
+}

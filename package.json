@@ -1,0 +1,32 @@
+{
+  "name": "azalea-web-request",
+  "version": "1.0.0",
+  "description": "#### 项目介绍 网页请求库",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-babel": "babel src",
+    "build-lib": "builder run build-babel -- -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/azalea-sz/azalea-web-request.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "es6-symbol": "^3.1.1",
+    "isomorphic-unfetch": "^2.0.0",
+    "lodash": "^4.17.10"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-transform-builtin-extend": "^1.1.2",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-es2015-typeof-symbol": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "builder": "^4.0.0"
+  }
+}
