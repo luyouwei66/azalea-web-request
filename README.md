@@ -9,7 +9,7 @@
 
 #### 安装教程
 
-添加 "azalea-web-request": "git+https://deploy%40ibona.cn:78dvumBnNCwGtncu@gitee.com/azalea-sz/azalea-web-request.git#master" 到你的 package.json dependencies 里
+添加 "azalea-web-request": "git+https://github.com/luyouwei66/azalea-web-request.git#master" 到你的 package.json dependencies 里
 
 
 npm install
